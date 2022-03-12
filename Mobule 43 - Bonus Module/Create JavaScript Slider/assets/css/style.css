@@ -1,0 +1,55 @@
+/* Add google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.title {
+  text-align: center;
+  margin: 1rem 0 0.625rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.slider-container {
+  width: 100%;
+  max-width: 760px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider-container img {
+  vertical-align: middle;
+  border: 2px solid #ddd;
+  border-radius: 0.4rem;
+}
+
+/* Image Numbering */
+.img-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0.5rem 1rem;
+  border-radius: .4rem;
+  background-color: #fff;
+  color: #13111a;
+  font-weight: 600;
+}
